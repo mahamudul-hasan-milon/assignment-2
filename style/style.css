@@ -374,15 +374,28 @@ body {
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
-    .navbar {
+
+    .navbar,
+    .banner {
         flex-direction: column;
+        width: 100%;
     }
 
-    .card-container {
+    .card-container,
+    .cal,
+    .pic-u,
+    .meet-img,
+    .content2 {
         grid-template-columns: repeat(1, 1fr);
     }
 
-
+    .container,
+    .uniq,
+    .bmi,
+    .team,
+    .cal2 {
+        width: 100%;
+    }
 
 
 
