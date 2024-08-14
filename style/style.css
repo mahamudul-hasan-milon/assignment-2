@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
 
 body {
     background-color: black;
+}
+
+.grey-qo-font1 {
+    font-family: "Grey Qo", cursive;
+    font-size: 4.875rem;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .inter-font {
@@ -21,8 +29,7 @@ body {
 
 /* header style */
 .bg-light {
-    background-color: gray;
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
+    background: rgba(255, 255, 255, 0.1);
 
 }
 
@@ -50,6 +57,8 @@ body {
 }
 
 .nav-links {
+    justify-content: space-between;
+    align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     margin: 0px 10px;
@@ -60,7 +69,7 @@ body {
 #hom {
     background: rgb(230, 83, 60);
     border-radius: 46px;
-
+    padding: 8px 20px 8px 20px;
 }
 
 .navbar,
@@ -107,6 +116,40 @@ body {
     background: black;
     padding: 16px 40px 16px 40px;
     border: 1px solid rgb(255, 255, 255);
+}
+
+#main {
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 193px;
+    height: 98px;
+    margin-right: -280px;
+    margin-top: 100px;
+    border: none;
+}
+
+#main-cart {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+#main2 {
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 206px;
+    height: 96px;
+    margin-right: 240px;
+    margin-top: 430px;
+    border: none;
+}
+
+#main-cart2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
 }
 
 /* main style */
@@ -173,6 +216,24 @@ body {
     height: 312px;
     border-radius: 18px;
 }
+
+/* Unique section */
+.uniq {
+    width: 1060px;
+    height: 782px;
+}
+
+.motiv {
+    text-align: center;
+}
+
+.uni-pic {
+    width: 690px;
+    height: 450px;
+    border-radius: 15px;
+    border: 2px solid red;
+}
+
 
 /* bmi calculator */
 .bmi {
