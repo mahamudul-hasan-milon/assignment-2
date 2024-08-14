@@ -160,12 +160,30 @@ body {
 
 .content2 {
     display: flex;
+    justify-content: space-between;
+}
+
+.con2-des {
+    width: 443px;
+    height: 290px;
 }
 
 .con2-img {
     width: 366px;
     height: 312px;
     border-radius: 18px;
+}
+
+/* bmi calculator */
+.bmi {
+    margin-bottom: 100px;
+}
+
+.cal {
+    width: 1440px;
+    height: 487px;
+    background: rgba(255, 255, 255, 0.1);
+
 }
 
 /* meet our team */
@@ -196,8 +214,43 @@ body {
     background: rgba(255, 255, 255, 0.1);
 }
 
+/* footer style */
+.sub-brand {
+    font-size: 4.375rem;
+    font-weight: 800;
+}
 
+.footer-title2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
 
+.footer-title3 {
+    font-size: 1.4375rem;
+    font-weight: 400;
+}
+
+.cont2 {
+    gap: 152px;
+}
+
+.cal2 {
+    /* padding: 66px 101px 0px 100px; */
+
+    width: 1440px;
+    height: 489px;
+    /* width: 100%; */
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-gap {
+    gap: 102px;
+}
+
+.copyright {
+    text-align: center;
+}
 
 /* responsive media query */
 @media screen and (max-width: 576px) {}
