@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+body {
+    background-color: black;
+}
 
 .inter-font {
     font-family: "Inter", sans-serif;
@@ -18,7 +21,8 @@
 
 /* header style */
 .bg-light {
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    background-color: gray;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
 
 }
 
@@ -77,8 +81,8 @@
 }
 
 .main-banner {
-    width: 520px;
-    height: 282px;
+    max-width: 650px;
+    /* max-height: 282px; */
 }
 
 .banner-para {
@@ -106,8 +110,94 @@
 }
 
 /* main style */
-.first {
-    width: 1440px;
-    height: 4650px;
-    background: rgb(0, 0, 0);
+.container {
+    width: 100%;
+    /* max-width: 1440px; */
 }
+
+.content1,
+.content2,
+.team {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card-intro {
+    margin-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.title,
+.card-title {
+    color: rgb(255, 255, 255);
+}
+
+.card,
+.meet {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-card {
+    border-radius: 50%;
+    border: 3px solid darkslateblue;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.content2 {
+    display: flex;
+}
+
+.con2-img {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+
+/* meet our team */
+.team {
+    width: 100%;
+    /* width: 1060px;
+    height: 782px; */
+    align-items: center;
+}
+
+.meet {
+    margin-bottom: 58px;
+}
+
+.picture {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+}
+
+.meet-img {
+    /* width: 1060px;
+    height: 604px; */
+    padding: 20px;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+/* responsive media query */
+@media screen and (max-width: 576px) {}
