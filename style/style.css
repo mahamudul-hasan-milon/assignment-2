@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+}
+
+/* header style */
+.bg-light {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+
+}
+
+/* navbar style */
+.brand {
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.nav-links {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    margin: 0px 10px;
+    padding: 5px;
+    gap: 47px;
+}
+
+#hom {
+    background: rgb(230, 83, 60);
+    border-radius: 46px;
+
+}
+
+.navbar,
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* banner style */
+.banner {
+    justify-content: space-between;
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 4.875rem;
+}
+
+.main-banner {
+    width: 520px;
+    height: 282px;
+}
+
+.banner-para {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn1 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-radius: 2.625rem;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    border: none;
+}
+
+.btn2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-radius: 2.625rem;
+    background: black;
+    padding: 16px 40px 16px 40px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* main style */
+.first {
+    width: 1440px;
+    height: 4650px;
+    background: rgb(0, 0, 0);
+}
