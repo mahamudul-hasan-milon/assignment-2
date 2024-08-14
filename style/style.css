@@ -154,8 +154,8 @@ body {
 
 /* main style */
 .container {
-    width: 100%;
-    /* max-width: 1440px; */
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .content1,
@@ -177,9 +177,14 @@ body {
     font-weight: 900;
 }
 
-.title,
+.title {
+    color: rgb(255, 255, 255);
+}
+
 .card-title {
     color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
 }
 
 .card,
@@ -198,37 +203,50 @@ body {
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    text-align: justify;
 
 }
 
 .content2 {
-    display: flex;
-    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .con2-des {
-    width: 443px;
-    height: 290px;
+    margin-left: 60px;
+    width: 650px;
+    height: 350px;
 }
 
 .con2-img {
-    width: 366px;
-    height: 312px;
+    width: 316px;
+    height: 262px;
     border-radius: 18px;
+    margin-left: 350px;
+    margin-top: 40px;
 }
 
 /* Unique section */
 .uniq {
-    width: 1060px;
-    height: 782px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .motiv {
     text-align: center;
+    margin-bottom: 58px;
+}
+
+.pic-u {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .uni-pic {
-    width: 690px;
+    width: 600px;
     height: 450px;
     border-radius: 15px;
     border: 2px solid red;
@@ -237,7 +255,18 @@ body {
 
 /* bmi calculator */
 .bmi {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 100px;
     margin-bottom: 100px;
+    align-items: center;
+}
+
+.bmi-des {
+    width: 800px;
+    height: 120px;
+    margin-left: 250px;
+    margin-bottom: 150px;
 }
 
 .cal {
@@ -245,18 +274,44 @@ body {
     height: 487px;
     background: rgba(255, 255, 255, 0.1);
 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cal-body {
+    margin-top: 15px;
+    margin-left: 180px;
+
+}
+
+.cal-title {
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.cal-table {
+    width: 310px;
+    height: 216px;
+    border: 1px solid white;
+}
+
+.cal-head {
+    border: 1px solid white;
+    text-align: center;
 }
 
 /* meet our team */
 .team {
-    width: 100%;
-    /* width: 1060px;
-    height: 782px; */
+    max-width: 1440px;
+    margin: 0 auto;
     align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .meet {
-    margin-bottom: 58px;
+    margin-bottom: 100px;
 }
 
 .picture {
@@ -266,13 +321,15 @@ body {
 }
 
 .meet-img {
-    /* width: 1060px;
-    height: 604px; */
+    width: 1060px;
+    height: 604px;
     padding: 20px;
     border-radius: 18px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background: rgba(255, 255, 255, 0.1);
+    margin: 0px 170px;
+
 }
 
 /* footer style */
@@ -292,16 +349,18 @@ body {
     font-weight: 400;
 }
 
+.cont {
+    max-width: 650px;
+}
+
 .cont2 {
     gap: 152px;
 }
 
 .cal2 {
     /* padding: 66px 101px 0px 100px; */
-
-    width: 1440px;
-    height: 489px;
-    /* width: 100%; */
+    max-width: 1440px;
+    margin: 0 auto;
     background: rgba(255, 255, 255, 0.1);
 }
 
@@ -314,4 +373,18 @@ body {
 }
 
 /* responsive media query */
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+
+
+}
