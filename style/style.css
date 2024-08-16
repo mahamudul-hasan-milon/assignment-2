@@ -243,6 +243,7 @@ body {
 .pic-u {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 220px;
 }
 
 .uni-pic {
@@ -281,6 +282,7 @@ body {
 .cal-body {
     margin-top: 15px;
     margin-left: 180px;
+    margin-right: 120px;
 }
 
 .cal-title {
@@ -292,7 +294,31 @@ body {
 .cal-table {
     width: 310px;
     height: 216px;
+    margin-top: 60px;
     border: 1px solid white;
+}
+
+.cal-button {
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 40px 12px 20px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.cal-ex {
+    margin: 34px 0px;
+}
+
+.button-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#last {
+    grid-column: span 2;
 }
 
 .cal-head {

@@ -164,21 +164,24 @@
                         squared. Alternatively, use the formula BMI = weight (kg) / (height (m) × height (m)) for a
                         quick assessment of body weight.</p>
 
-                    <input type="text" placeholder="Height/cm" name="" id="">
-                    <input type="text" placeholder="Weight/kg" name="" id="">
-                    <input type="text" placeholder="Age" name="" id="">
-                    <select>
-                        <option value="sex">Sex</option>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                        <option value="others">Others</option>
-                    </select>
-                    <select>
-                        <option value="Select an activity factor">Select an activity factor</option>
-                        <option value="day">Day</option>
-                        <option value="night">Night</option>
-                    </select>
-                    <button class="btn1">Calculate</button>
+                    <div class="button-main">
+                        <input class="cal-button banner-para" type="text" placeholder="Height/cm" name="" id="">
+                        <input class="cal-button banner-para" type="text" placeholder="Weight/kg" name="" id="">
+                        <input class="cal-button banner-para" type="text" placeholder="Age" name="" id="">
+                        <select class="cal-button banner-para">
+                            <option value="sex">Sex</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="others">Others</option>
+                        </select>
+                        <select id="last" class="cal-button banner-para">
+                            <option value="Select an activity factor">Select an activity factor</option>
+                            <option value="day">Day</option>
+                            <option value="night">Night</option>
+                        </select>
+                    </div>
+
+                    <button class="btn1 cal-ex">Calculate</button>
                 </div>
             </div>
         </section>
