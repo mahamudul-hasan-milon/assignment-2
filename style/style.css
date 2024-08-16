@@ -359,6 +359,7 @@ body {
 .cal2 {
     /* padding: 66px 101px 0px 100px; */
     max-width: 1440px;
+    height: 489px;
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.1);
 }
@@ -367,8 +368,15 @@ body {
     gap: 102px;
 }
 
+.hori-line {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
 .copyright {
+    font-size: 1.4375rem;
+    font-weight: 400;
     text-align: center;
+    margin-top: 40px;
 }
 
 /* responsive media query */
